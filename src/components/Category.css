@@ -1,0 +1,67 @@
+.category {
+  margin-bottom: 40px;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+.widget-container {
+  /* width: 100%; */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.add-widget-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px dashed #ccc;
+  color: #555;
+  font-weight: bold;
+}
+
+.add-widget-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.add-widget-form input,
+.add-widget-form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-widget-form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-widget-form-buttons button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-widget-form-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.add-widget-form-buttons button:last-child {
+  background-color: #6c757d;
+}
+
+.add-widget-form-buttons button:last-child:hover {
+  background-color: #5a6268;
+}
