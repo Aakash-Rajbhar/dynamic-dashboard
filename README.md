@@ -6,7 +6,7 @@ This project is a React-based widget dashboard that displays various widgets wit
 
 - clone the repository to your local PC by running the command :
   ```bash
-  git clone
+  git clone https://github.com/Aakash-Rajbhar/dynamic-dashboard.git
   ```
 
 - navigate to the project folder by:
